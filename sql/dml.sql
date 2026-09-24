@@ -116,16 +116,7 @@ INSERT INTO Payment (payment_id, order_id, payment_date, amount, method, status,
 (713, 513, '2024-08-20', 2899.00, 'Card', 'Pending', 'TXN3213213214'),
 (714, 514, '2024-08-21', 42999.00, 'UPI', 'Success', 'TXN6546546547'),
 (715, 515, '2024-08-22', 3198.00, 'NetBanking', 'Success', 'TXN9879879870');
---select statements
-SELECT * FROM Customer;
 
-SELECT * FROM Address;
-
-SELECT * FROM Category;
-
-SELECT * FROM Product;
-
-SELECT * FROM Orders;
 
 SELECT * FROM Order_Item;
 
